@@ -92,13 +92,14 @@ WSGI_APPLICATION = 'final_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-          'NAME': 'final',
-         'USER': 'fatemeh',
-         'PASSWORD': 'f1234',
-        'HOST': 'localhost',  # یا آدرس سرور MySQL
-        'PORT': '3306',  # یا پورت مورد نظر
+        'NAME': 'final',  # نام پایگاه داده
+        'USER': 'fatemehysf',  # نام کاربری
+        'PASSWORD': 'f1234567',  # رمز عبور پایگاه داده
+        'HOST': 'fatemehysf.mysql.pythonanywhere-services.com',  # آدرس میزبان
+        'PORT': '3306',  # پورت MySQL
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
