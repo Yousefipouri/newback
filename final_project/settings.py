@@ -88,28 +88,14 @@ WSGI_APPLICATION = 'final_project.wsgi.application'
 
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'mssql',
-#         'NAME': 'final',
-#         'USER': 'ftm',
-#         'PASSWORD': '11111111',
-#         'HOST': 'localhost',
-#         'PORT':'',
-#         'OPTIONS':{
-#             'driver': 'ODBC Driver 17 for SQL Server'
-#         },
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'final',
-        'USER': 'fatemeh',
-        'PASSWORD': 'f1234',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+          'NAME': 'final',
+         'USER': 'fatemeh',
+         'PASSWORD': 'f1234',
+        'HOST': 'localhost',  # یا آدرس سرور MySQL
+        'PORT': '3306',  # یا پورت مورد نظر
     }
 }
 
